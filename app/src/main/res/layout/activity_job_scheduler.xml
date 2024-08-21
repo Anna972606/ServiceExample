@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Job scheduler Example"/>
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="24dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:layout_gravity="center_vertical"
+           android:text="Animal image"/>
+
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/buttonAnimal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:layout_marginStart="8dp"
+           android:text="Download"/>
+
+       <androidx.appcompat.widget.AppCompatImageView
+           android:id="@+id/imageViewAnimal"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:layout_marginStart="8dp"
+           android:src="@drawable/ic_launcher_background"/>
+
+   </androidx.appcompat.widget.LinearLayoutCompat>
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="24dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:layout_gravity="center_vertical"
+           android:text="Flower image"/>
+
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/buttonFlower"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:layout_marginStart="8dp"
+           android:text="Download"/>
+
+       <androidx.appcompat.widget.AppCompatImageView
+           android:id="@+id/imageViewFlower"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:layout_marginStart="8dp"
+           android:src="@drawable/ic_launcher_background"/>
+
+   </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>
